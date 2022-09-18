@@ -1,0 +1,42 @@
+.technologies-used{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.sea-tech
+{
+ border-radius: 4px;
+ padding: 5px;
+ width: 100px;
+ margin-left: 10%;
+}
+
+.sea-subheading{
+  padding: 30px;
+  height: 50%;
+  display: flex;
+  font-size: 60px;
+  width: 80%;
+  
+}
+@media screen and (max-width: 480px) {
+  .sea-tech
+{
+ border-radius: 4px;
+ padding: 5px;
+ width: 40px;
+ margin-left: 10%;
+}
+
+.sea-subheading{
+  padding: 30px;
+  height: 50%;
+  display: flex;
+  font-size: 30px;
+  width: 80%;}
+  
+}
+
