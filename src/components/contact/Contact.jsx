@@ -19,7 +19,7 @@ const Contact = () => {
         "service_4ct42pa",
         "template_a0eg8s5",
         formRef.current,
-        "user_DrriDPTGKO2Zj4RDXCA6W"
+        "JW1t29rcUS-szbpu-"
       )
       .then(
         (result) => {
@@ -63,7 +63,7 @@ const Contact = () => {
             <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Email" name="user_email" />
             <textarea style={{backgroundColor: darkMode && "#333"}} rows="5" placeholder="Message" name="message" />
             <button>Submit</button>
-            {done && "Thank you..."}
+            {done && "Your Response Submitted.......Thank you"}
           </form>
         </div>
       </div>
